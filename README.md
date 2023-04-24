@@ -14,6 +14,7 @@ Pequeña introducción del Proyecto.
 <p>
 Son máquinas capaces de imitar procesos o actividades humanas actuando como si fuera uno, hoy en día esta juega un papel muy importante en muchas áreas como, medicina, ingeniería, tecnologí, educación etc. Con ella se busca facilitar y cuidar a los humanos ya que dependendiendo del área estas maquinas evitan que los humanos corran algun riesgo.
 </p>
+
 # IA Compiler
 
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl0tQ1GeWYhg-PuTealTqlQu-Us6kspW5XCg&usqp=CAU)
