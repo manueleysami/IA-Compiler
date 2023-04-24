@@ -1,0 +1,147 @@
+
+Explicación del código HTML:
+
+- La estructura HTML comienza con el doctype, que indica el tipo de documento que estamos creando. En este caso, estamos utilizando HTML5.
+- Luego, dentro de las etiquetas `<html>` se incluyen todas las secciones de la página web.
+- La sección `<head>` incluye el título de la página, el juego de caracteres utilizado (UTF-8), la etiqueta viewport y la referencia al archivo de estilos CSS.
+- El encabezado de la página se define con la etiqueta `<header>`. Dentro de esta etiqueta se incluyen el título de la página y la barra de navegación.
+- La etiqueta `<nav>` define la barra de navegación. Dentro de ella, se crea una lista no ordenada (`<ul>`) con los enlaces a las diferentes secciones de la página (`<li>`).
+- La sección principal de la página se define con la etiqueta `<main>`. Dentro de ella, se crean las tres secciones de la página: Inicio, Contacto y Acerca de nosotros (`<section>`).
+- La sección de Contacto incluye un formulario básico con campos para el nombre, correo electrónico y mensaje del usuario.
+- La sección de Acerca de nosotros incluye una imagen relacionada con la IA y un breve texto que describe la empresa.
+- Finalmente, el pie de página se define con la etiqueta `<footer>`. Dentro de ella, se incluye el texto de derechos de autor.
+
+
+Explicación del código CSS:
+
+- Los estilos generales se aplican al cuerpo de la página (`body`) y a los encabezados (`h1` y `h2`) y párrafos (`p`) de la página.
+- Los estilos de la barra de navegación se aplican a la etiqueta `<nav>` y a sus elementos hijos (`ul`, `li` y `a`).
+- Los estilos del formulario de contacto se aplican a la etiqueta `<form>` y a sus elementos hijos (`label`, `input` y `textarea`).
+- Los estilos de la sección Acerca de nosotros se aplican a la etiqueta `<section>` con el identificador `#acerca` y a la imagen (`<img>`) que se muestra en esa sección.
+- Los estilos del pie de página se aplican a la etiqueta `<footer>` y a su párrafo hijo (`p`).
+
+/* Estilos generales */
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 32px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 24px;
+	margin-top: 20px;
+}
+
+p {
+	line-height: 1.5;
+	margin-top: 10px;
+}
+
+/* Estilos de la barra de navegación */
+
+nav {
+	background-color: #333;
+	color: #fff;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+}
+
+nav a:hover {
+	background-color: #fff;
+	color: #333;
+}
+
+/* Estilos del formulario de contacto */
+
+form {
+	width: 50%;
+	margin: 0 auto;
+}
+
+label {
+	display: block;
+	margin-top: 20px;
+}
+
+input[type="text"], textarea {
+	padding: 10px;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 5px;
+}
+
+textarea {
+	height: 150px;
+}
+
+input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/* Estilos del botón de envío */
+
+input[type="submit"]:hover {
+	background-color: #ccc;
+}
+
+/* Estilos de la sección Acerca de nosotros */
+
+#acerca {
+	text-align: center;
+}
+
+#acerca img {
+	width: 300px;
+	height: auto;
+	margin-top: 30px;
+}
+
+/* Estilos del pie de página */
+
+footer {
+	background-color: #f0f0f0;
+	padding: 10px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+footer p {
+	color: #333;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+
+
+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
